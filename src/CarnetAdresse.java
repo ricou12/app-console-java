@@ -1,12 +1,14 @@
+import java.util.Date;
+
 public class CarnetAdresse {
     private String lastName ;
     private String firstName;
     private String adress;
+    private int age;
+    private Date today;
 
 //    public CarnetAdresse(){
 //        lastName ="test";
-//        firstName ="test";
-//        adresse= "test";
 //    }
 
     public String getLastname(){
@@ -33,5 +35,15 @@ public class CarnetAdresse {
         this.adress = newAdresse;
     }
 
+    public int getAge() {
+        return this.age;
+    }
 
+    public void setAge(int age){
+        this.age = age;
+    }
+
+    public Date getToday() {
+        return this.today;
+    }
 }
